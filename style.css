@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Chela+One&family=Martel+Sans&family=Roboto+Mono:wght@100&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image: url("image/hero_image.jpg");
+    background-size: max(2100px,120vw);
+    background-repeat: no-repeat;
+    height: 120vh;
+    width: 100%;
+    position: relative;
+    background-position: center center;
+}
+
+.main .box{
+    height: 120vh;
+    width: 100%;
+    opacity: 0.6;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+.nav{
+    background: transparent;
+    height: 12vh;
+    max-width: 90vw;
+    margin: auto;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav img{
+    position: relative;
+    z-index: 10;
+}
+
+.nav button{
+    background: transparent; 
+    color: white;
+    margin: 5px;
+    position: relative;
+    z-index: 10;
+    height: 25px;
+    width: 85px;
+    border-radius: 2.5px;
+    font-size: 14px;
+    font-weight: 400;
+}
+button i{
+    color: white;
+    margin: 5px;
+}
+
+.button .lag{
+    border: 1px solid gray;
+    
+}
+.button .sign{
+    background-color: red;
+    border: none; 
+}
+
+.text{
+    position: relative;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+}
+.text span{
+    font-size: 24px;
+    font-weight: 400;
+}
+.text .p1{
+    
+    font-size: 45px;
+    font-weight: 900;
+}
+.text .inputs{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.text input{
+    background: transparent;
+    color: white;
+    border: 1px solid gray;
+    border-radius: 2px;
+    position: relative;
+    z-index: 10;
+    height: 50px;
+    width: 360px;
+    padding-left:5px ;
+}
+
+.text button{
+    color: white;
+    height: 50px;
+    width: 200px;
+    background-color: red;
+    border: none;
+    border-radius: 2.5px;
+    font-size: 25px;
+}
+@media screen and (max-width:630px){
+    .main , .main .box{
+        height: 150vh;
+    }
+    .inputs{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+}
+
+.line{
+    height:8px;
+    background-color: rgba(108, 108, 108, 0.362);
+}
+
+.block{
+    height: 550px;
+    width: auto;
+    color: white;
+   
+}
+
+.inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 32px;
+    padding-top: 50px;
+
+}
+
+.textarea .p1{
+    font-size: 48px;
+    font-weight: 900;
+
+}
+.textarea .p2{
+    font-size: 24px;
+    font-weight: 400;
+}
+@media screen and (max-width:1000px) {
+    .inner{
+        flex-wrap: wrap;
+    }
+    .block{
+        height: 600px;
+    }
+    .textarea .p1{
+        font-size: 32px;
+        font-weight: 700;
+        text-align: center;
+    }
+    .textarea .p2{
+        font-size: 18px;
+        font-weight: 400;
+        text-align: center;
+    }
+}
+@media screen and (max-width:860px) {
+    .block{
+        height: 800px;
+    }
+}
+
+.inner img{
+    height: 400px;
+    width: 530px;
+}
+.inner video{
+   height: 220px;
+   width: 400px;
+   position: absolute;
+   top: 83px;
+   right: 65px;
+   overflow: hidden;
+   z-index: -1;
+   
+}
+.secimg{
+    position: relative;
+}
+
+
+
+.block3 video{
+    height: 190px;
+    width: 334px;
+    position: absolute;
+    top: 50px;
+    right: 95px;
+    overflow: hidden;
+    z-index: -1;
+}
+.FAQ{
+    height: 850px;
+    width: auto;
+    color: white;
+}
+.FAQ .innerblock{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 32px;
+    padding-top: 50px;
+}
+.FAQ .p1{
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.minblock{
+    height: 45px;
+    width:95%;
+   margin-top: 10px;
+    background-color: rgba(105, 105, 105, 0.432);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.innerblock .lasttext{
+    font-size: 24px;
+    font-weight: 400;
+}
+.innerblock .inputs{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.innerblock input{
+    background: transparent;
+    color: white;
+    border: 1px solid gray;
+    border-radius: 2px;
+    position: relative;
+    z-index: 10;
+    height: 50px;
+    width: 360px;
+    padding-left:5px ;
+}
+.innerblock button{
+    color: white;
+    height: 50px;
+    width: 200px;
+    background-color: red;
+    border: none;
+    border-radius: 2.5px;
+    font-size: 25px;
+}
+
+footer{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    padding: 30px;
+    color: gray;
+}
+a{
+    color: gray;
+}
+.link{
+    margin-top: 10px;
+    height: 140px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.linkblock{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;   
+}
+
+@media screen and (max-width:860px){
+    .text .p1{
+    
+        font-size: 32px;
+        font-weight: 700;
+    }
+    .text span{
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .FAQ{
+        height: 950px;
+    }
+    .minblock{
+        height: 30px;
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:650px){  
+    .FAQ .p1{
+        font-size: 32px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+    .innerblock .inputs,.text .inputs{
+        display: flex;
+        align-items: center;
+        
+    }
+    
+}
+@media screen and (max-width:545px) {
+    button{
+        height: 35px;
+        width: 115px;
+        font-size: large;
+        font-weight: 700;
+    }
+    .inner img{
+        height: 350px;
+        max-width: 400px;
+    }
+    .inner video{
+        height: 220px;
+        width: 350px;
+        top: 62px;
+        right: 5px;   
+     }
+     .block3 video{
+        height: 190px;
+        width: 250px;
+        top: 30px;
+        right: 75px;
+    }
+    .link{
+        height: 150px;
+    }
+    footer{
+        font-size: 12px;
+    }
+    
+}
+@media screen and (max-width:400px) {
+    .inner img{
+        width: 340px;
+    }
+    input{
+        height: 35px;
+        max-width: 75vw;
+    }
+    button{
+        height: 38px;
+       max-width: 55vw;
+        font-size: 8vw;
+    }
+    
+}
